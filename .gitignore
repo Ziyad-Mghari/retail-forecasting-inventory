@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Données locales : ne pas envoyer sur GitHub
+data/raw/
+data/processed/
+
+# Identifiants et secrets locaux
+.env
+kaggle.json
